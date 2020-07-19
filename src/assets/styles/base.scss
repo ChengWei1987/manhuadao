@@ -49,5 +49,8 @@ table {
 
 //===================
 html,body,#app{
+	// 这里的px单位不希望被转为rem,值需要把单位写为PX
 	height:100%;
+	max-width: 540PX;
+	margin: 0 auto;
 }
